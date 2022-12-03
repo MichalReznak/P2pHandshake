@@ -1,0 +1,11 @@
+{
+    "name": "p2p_auth",
+    "type": "module",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@noble/secp256k1": "^1.7.0",
+        "ethereum-cryptography": "^1.1.2"
+    }
+}

@@ -20,7 +20,6 @@ const concatKDF = (keyMaterial, keyLength) => {
 
 // Borrowed from @ethereumjs/devp2p
 const ecdhX = (publicKey, privateKey) => {
-    // return (publicKey * privateKey).x
     const hashfn = (x, y) => {
         const pubKey = new Uint8Array(33);
         pubKey[0] = (y[31] & 1) === 0 ? 0x02 : 0x03;
